@@ -1,0 +1,10 @@
+.DS_Store
+*/nbproject/private/
+*/dist/
+*/build/
+*/nbproject/Makefile-*
+*/nbproject/Package-*
+
+*/.dep.inc
+*.user
+testscripts/.idea

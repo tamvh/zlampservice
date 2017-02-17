@@ -1,0 +1,489 @@
+[33m434e335[m [zworker] delete event zworker/src/ZWorker.cpp
+[33me02ea8b[m [zworker] delete event ZCloudPublishMessageEvent
+[33m6a12a44[m [zapimqtt] remove file
+[33m55799f8[m [zapimqtt] move filt to folder private/include
+[33m0198a6f[m [zapimqtt] Cleanup code
+[33m25d77d3[m [zapihttp/zworker] revert code
+[33md0c3270[m [zapimqtt] define new variable
+[33m3147bea[m [zapimqtt] clean code
+[33mf8ccac0[m [zwerker] delete file
+[33m2bf4f16[m [zworker] add file in cmakelist
+[33m0c224ad[m [zapimqtt] rm file in cmakelist
+[33me3d03b4[m [zapimqtt] implement publish/receive msg
+[33mcf5b60a[m [zapihttp/zworker] rename function
+[33m15d22c4[m [zcommon] add new error code
+[33m176e218[m [zapimqtt] check empty obj
+[33m1f8d2d2[m [zapimqtt] implement event publish/receive msg
+[33m8e5e72d[m [zworker] clean code
+[33mdbf809e[m [zapimqtt] change name
+[33mebc0292[m [zworker] create func update data, change variable name
+[33mec8278a[m [zworker] init event publish/receive msg
+[33mabfd66f[m [zapimqttt] change name variable
+[33mef7f991[m [zapimqtt] add header file
+[33m1cfcd47[m [zapimqtt] try/catch func
+[33mcf7783e[m [zapimqtt] clean code
+[33ma25ee39[m [zapimqtt] define event receive msg
+[33mc5e5f22[m [zworker] init func updateDataDevice
+[33m12e4d8e[m [zapimqtt] init event receive message
+[33m49da4df[m [zapimqtt] covert string to int
+[33m0d336d7[m [zapimqtt] implement chanel res/req when receive data
+[33m2f6448b[m [zapimqtt] imp func onDeviceReceiveMsg
+[33mb64eee7[m [zapimqtt] reveive msg
+[33mac4c259[m [zworker] apply event change data(server->device) when update status device
+[33m5fc0e66[m [zapimqtt] using event update data when receive msg
+[33mb752df8[m [zworker] init event
+[33mc987b83[m [zworke] init event change state
+[33m025fd15[m [zapimqtt] Update topic name
+[33m51e1a05[m [zcloud] Fix openssl linker
+[33me0d1cb6[m [zapimqtt] clean code and change name
+[33m4e675dc[m [zapimqtt] clean code
+[33m62991aa[m [zapimqtt] clean code
+[33m3ce1c11[m [zapimqtt] delegate event
+[33md67c225[m recieve msg response chanel
+[33mc8e14c3[m Fix compiler error
+[33mfc0c278[m Merge
+[33m7fcd2af[m [zapimqtt] fix string
+[33m39ccc15[m [zapimqtt] fix string
+[33m7778778[m [zapimqtt] add new file
+[33mf10b9c6[m [zapimqtt] delegate device data updated
+[33m8b3349b[m [zworker] get userapikey when update status device
+[33mf499ead[m [zworker] add more item userApiKey
+[33mcc8cf1e[m [zapiws] get userapikey
+[33me63b674[m [zpimqtt] init topic function
+[33m5520cbe[m [zapimqtt] init mqtt client
+[33m2ca35b7[m [zapimqtt] init mqtt
+[33md120a9e[m split device temp-humidity
+[33ma905d0d[m [zapihtpp.web] return widget size
+[33m795809e[m [zapihttp.web] using item widget size
+[33mf6d92c8[m [zapihttp.web] add item widgetsize in func add/get widget information
+[33m9b7e430[m [zapihttp.web] change std::string -> int32
+[33m1a94063[m [zapihttp.web] add item widgetSize
+[33mca73784[m [zapimqtt] Cleanup code
+[33ma5aca28[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33meee7e46[m [zworker] defined new device type
+[33mba9c727[m [zworker] clean code
+[33m78b34ac[m [zapihttp.web] delte request body when delete widget
+[33m077b5db[m [zapimqtt] Add Paho mqtt client lib
+[33m4b93af9[m [zapihttp.web] Fix include wrong path
+[33mdefaefd[m Refactor zapihttp: move web app to another static lib (ZApiHttp.Web)
+[33mecf0758[m return {} when update widget information
+[33m017952b[m [zapihttp] return data after update widget information
+[33m470dfd2[m [zapihttp] add more field varName when get device infomation
+[33m8e3983b[m [zapihttp] add more feild varName
+[33mcdb13bf[m [zworker] add func getVarInfo
+[33m3548af6[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m5830450[m [zcommon] add new error code
+[33mff6ffba[m Update test scripts
+[33mfe02e7c[m [zapihttp] Add widget name
+[33m3cc3da5[m [zapihttp] Add more documentations
+[33m71c6cae[m [zapihttp] Refactor
+[33meda0a55[m [zapihttp] Working on WebApp preferences - /api/web/*
+[33mc5fb699[m [zworker] Refactor code to make authentication code available global
+[33m7e9de8e[m [zapiws] Rework on handle client list
+[33m5c20cd1[m [zapiws] push websocket to vector
+[33meeb3678[m Merge
+[33m46fba1a[m Merge
+[33mdc75243[m [zworker] register event change device information
+[33m1e8a2ff[m Add logs
+[33mfcde4d4[m Update test script
+[33mf918927[m [zworker] add new header
+[33m5d505cd[m [zworker] using func initStatusDevice when create DIY device
+[33m15dc301[m [zworker] create function initStatusDevice
+[33m622e717[m test document
+[33m53b12fc[m [zworker] using ZDeviceDataCreatedEvent when add DIY device
+[33m598e1c0[m [zapiws] using ZDeviceDataCreatedEvent
+[33mb2956d1[m [zworker] add event broadcasted by worker such as create device
+[33m2561205[m [zworker] create new header
+[33m07116e0[m [zapiws] clean code
+[33me018c31[m [zapiws] modify func onDeviceDeletedDevice
+[33m907f131[m [zapiws/zworker] change name, clean code
+[33m99d4b0f[m [zapiws] change register event
+[33m5e1d061[m [zworker] create event delete device
+[33m841db44[m [zapiws] register event handlers
+[33m2f961e2[m [zapiws] add event delete device
+[33m85f3694[m [zapiws] convert to int32_t
+[33m4bdf51c[m [zworker] clean code
+[33m0807b29[m [zworker] delete file
+[33m08c897b[m [zworker] set deviceInfo to Zdevice
+[33m8638ac4[m [zapiws] register event create new device
+[33md3382b2[m [zworker] broadcast when create new device
+[33m3b7adf0[m [zapiws] define enum BroadcastEvent & create func onDeviceDataCreate
+[33ma8d46ce[m [zworker] clean code
+[33m0f2e324[m [zapihttp] clean code
+[33mb441cfb[m [zworker] add new item in enum ZBroadcastEventType
+[33m413705a[m [zapiws] change data response when update device status
+[33m708c844[m [zapiws] modify func onDeviceDataUpdated
+[33m1a0ae43[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m9a4bf86[m [zapihttp] resp params when get all devices
+[33mbbef639[m [zapiws] Cleanup code
+[33m66804cc[m Merge
+[33md7419c6[m Refactor broadcast events
+[33mcee7472[m [zapiws] change include
+[33mddb511b[m [zapihttp] edit convert obj to str
+[33md36f052[m [zapihttp] push data to ws
+[33mf87dd36[m [zworker] set defaul value varID
+[33md523713[m [zapiws] add apikey in server packet
+[33md8d47b7[m [zapiws] using apikey in ClientInfo
+[33m456c076[m [zapiws] add field apikey
+[33m62935a0[m [zworker] add more file
+[33m0dfd427[m [zworker] init broadcast
+[33m107de46[m [zapiws] using func get_data
+[33m82e1617[m [zapiws] create func get data
+[33mbfd1651[m [zworker] init funcid
+[33m47c7f17[m [zapiws] init ZApiWS
+[33m7a8ea12[m [zapiws] change return ws
+[33m132a0fa[m [zapiws] delete func
+[33m7a22a7d[m [zapiws] handle func
+[33mb324ff1[m [zapiws] add more func set/get list client
+[33m9672a83[m [zapiws] clean code
+[33m6d5967e[m [zapiws] clean code
+[33m45712a7[m [zapiws] clean code
+[33m1a83790[m [zapiws] clean code
+[33m892630b[m [zapiws] clean code
+[33m1e8ec73[m [zapiws] clean code
+[33me733161[m [zapiws] cleanup code
+[33m12191bc[m [zapiws] Update CMakeLists.txt
+[33m62bdd93[m [zapiws] using serverpacket
+[33m5e10ac2[m [zapiws] delete enum
+[33m981e412[m [zapiws] init serverPacket
+[33ma9edeaf[m [zapiws] modify client
+[33m79d9f17[m [zapiws] handle func send_list_client
+[33mfcb2a99[m [zapiws] handle func login/logout/chattextmsg
+[33m1772778[m [zapiws] define ws msg
+[33m03f8280[m [zapiws] define client info
+[33mc31f290[m [zcommon] insert new error code
+[33me079bd8[m [zapiws] change config
+[33mfa89c1f[m [zworker] del header funcIDs.h
+[33med8d902[m [zapiws] change port
+[33m21256be[m [zapiws] del include header
+[33m04c4b52[m [zapiws] modify condition
+[33m08ba773[m [zapiws] create func send_list_client
+[33m92a0637[m [zworker] define funcid for websocket
+[33m476a5c0[m [zapihttp] change sequence include header
+[33mef9cc67[m [zapiws] write log
+[33mbebe6c7[m change config
+[33m0402576[m [zdevice] update config
+[33mfb9ee7c[m [zapiws] change include header
+[33mbdb284b[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33mdc237d9[m [zapiws] change port 9981
+[33m3157536[m [zapiws] Fix project settings: CMakeLists.txt and NetBeans
+[33m93ba3da[m [zcloud] impl ZApiWS
+[33m4897a0b[m [zapiws] impl
+[33m006f6ad[m [zapiws] handle request
+[33m285f084[m [zworker] update config
+[33m00748b1[m [zapiws] init
+[33m4b559a2[m [zapihttp] fix error check email regex
+[33m572672a[m [zapihttp] check email regex
+[33mb479f38[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m714f3bd[m remove error_message
+[33m113249c[m [zdevice] Refactor storage for variables
+[33m0de1937[m [zdevice] Refactor
+[33maacfad1[m [zapihttp] change error_code to ZErrorCode::User_Exists
+[33m4b081a0[m [zcommon] error code
+[33mf29ea41[m [zcommon] error code
+[33mcf1153f[m [zworker] Refactor ZWorker to move all user's operations to ZWorkerUsers.cpp
+[33mf18b629[m [zcommon] define error code
+[33m87e94ae[m [tests] Update test scripts for /user/register and /user/login
+[33m3b81ba4[m [zapihttp] expose api /user/remove to allow signed-in users to unregister their accounts
+[33ma050f51[m [zworker] add function to remove existing user
+[33m6460aa3[m [zapihttp] check duplicate email
+[33mf545023[m [zworker] update func getUserInfo
+[33mc6b09f8[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m93cd8a6[m [zworker] return value in func getLog
+[33mc9848c4[m Merge
+[33m005d972[m [tests] Refactor testscript
+[33m7a859f4[m [zapihttp] update func handleUserPassword
+[33m7f2322c[m [zworker] create new func changeUserPassword
+[33m1e6b698[m update testscript to make use of python unittest
+[33m2a65315[m [zapihttp] using func getUserInfo with email
+[33m09ddac7[m [zworker] create func getUserInfo with email
+[33mc441655[m [zapihttp] using func createNewUser & getUserInfo
+[33mabefe23[m [zworker] create new func createNewUser & getUserInfo
+[33me0967eb[m [tests] Add python testscripts
+[33me794a6e[m Update gitignore pattern
+[33m544fd9a[m [zworker] uncheck user in some func
+[33mc1d7859[m [zworker] using ZDBkey
+[33mf673403[m [zcommon] define new key
+[33mc832fbe[m [zadmin] using ZDBkey
+[33mfe0c0f3[m [zcommon] define new key
+[33mb7cc841[m [zadmin] using ZDBkey
+[33m88aa9c1[m [zcommon] define new key
+[33m0629b04[m [zdevice] using ZDBkey
+[33mf61f997[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33mbe7ca68[m [zuser] using ZDBkey
+[33mbcad15c[m [zworker] using ZDBkey
+[33m8f8016a[m [zapihttp] Add path /api/version to show build version of zcloud
+[33med25ed5[m [zdevice] using ZDBkey
+[33mbb999f4[m [zcommon] add key device
+[33ma889181[m [zdevice] del item deviceType in varInfo
+[33m5b7cc02[m [zdevice] del item deviceType in varInfo
+[33mb75cdea[m [zworker] del item deviceType in varInfo
+[33mb2ad2fc[m [zdevice] change return value in func mGetVarValue
+[33md03b7f7[m [zdevice] del func getVarValue
+[33mc11bf62[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m84dfc9f[m [zcommon] Add ZDBKey for unifying access to objects stored in DB
+[33m9733a10[m [zdevice] update list file
+[33m4d0fae4[m [zdevice] define KeyListString
+[33m14c8965[m [zapihttp] using func getAllFactoryDevices
+[33m3c627f4[m [zdevice] add func getAllFactoryDevices
+[33m1c87dff[m [zdevice] add func createFactoryDeviceInfo
+[33ma6fd250[m [zapihttp] update func handleUpdateDeviceWithId
+[33mde7c253[m [zapihttp] using func getDIYDevice
+[33mf99a4e5[m [zapihttp] using func getDIYDevice
+[33ma1e4f0e[m [zworker] add func getDIYDevice
+[33mf7fa45f[m [zapihttp] update func handleGetAdminDevicesDeviceId
+[33me1b50e4[m [zapihttp] add func fillJsonDetailDeviceInfo
+[33mf89500c[m [zworker] add func getAllDevicesInIoT
+[33m9aae64c[m [zapihttp] update func handleGetAdminDevices
+[33ma27f093[m [zdevice] add func mGetDeviceInfo with KeyListString
+[33m277fafb[m [zapihttp] rename func getAllDevices
+[33mb4c23b0[m [zworker] add func getAllDevicesInIoT
+[33mf7efbc1[m [zapihttp] update func handleGetAdminUserApikey
+[33m9896cb5[m [zworker] using func getWithUserKey
+[33mc190371[m [zadmin] update func create
+[33m492f48b[m [zadmin] change 'devices' -> 'admin'
+[33m9dbf0df[m [zadmin] del userId_Str test
+[33me4f2868[m [zapihttp] modify func handleAPIHttpQuery
+[33md3be2b8[m [zworker] delete relation user-device in func deleteDevice
+[33m4536687[m [zworker] update func deleteDevice
+[33mfffb96d[m [zdevice] modify func removeVarValue
+[33m90a849f[m [zdevice] add func mGetVarValue
+[33md29a753[m [zdevice] add MapString
+[33m1c3503e[m [zdevice] add vector KeyListString
+[33m65c7738[m [zdevice] modify func getVarValue
+[33m22a52b4[m [zworker] write log
+[33m61f989b[m [zdevice] modify func saveVarValueToDB
+[33m78edcee[m [zdevice] modify func saveVarValueToDB
+[33m6dfccbb[m [zdevice] create func removeVarInfo
+[33m785cc1a[m [zdevice] add func getVarValue
+[33ma2a34a7[m [zdevice] create func getVarInfo
+[33m7dd98d1[m [zdevice] remove include ZParamInfo.h
+[33mfbe021a[m [zdevice] rename func 'remove' -> 'removeDeviceInfo'
+[33m01d7f9f[m [zapihttp] modify func handleDeleteDeviceWithId
+[33mec9a9ee[m [zworker] remove using func removeDeviceData
+[33m1106486[m [zdevice] del func removeDeviceData
+[33mb79b22c[m [zapihttp] modify func handleUpdateDeviceWithId
+[33m2930b82[m [zapihttp] add func fillJsonDetailDevice & modify func fillJsonDetailDevice
+[33m918ace7[m [zworker] add func mGetVarLastestValues & change relation deviceId-vars
+[33m0c61432[m [zworker] using mGetDeviceInfo
+[33m196373b[m [zdevice] change func name 'multiget' -> 'mGetDeviceInfo'
+[33mab87f74[m [zworker] change key name 'varId' -> 'vars'
+[33m768128a[m [zapihttp] delete ZDeviceData and change func name 'get' -> 'getDeviceInfo'
+[33m4793a5e[m [zadmin] delete ZDeviceData and change func name 'get' -> 'getDeviceInfo'
+[33m0561e26[m [zdevice] change ZVarLastestValue -> ZVarLastestValue::Ptr
+[33me4499e4[m [zdevice] tostring time
+[33mef81b2d[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m443ed2c[m [zdevice] delete ZdeviceData and change func name 'get'->'getDeiviceInfo'
+[33mdb8cf78[m [zdevice] Update key scheme
+[33ma76dfd3[m [zdevice] delete ZdeviceData
+[33me660a9a[m [zworker] delete ZdeviceData and change func name 'get'->'getDeiviceInfo'
+[33m7640500[m [zdevice] Add missing files to CMakeLists.txt
+[33me7bdcc3[m [zworker] modify func update status device
+[33md8f24dc[m [zdevice] change config
+[33mf7c9b8f[m [zdevice] create varlastestvalue
+[33m085a292[m [zdevice] init zvarlastestvalue
+[33m00dd511[m [zdevice] change config
+[33m899f43e[m [zdevice] create varvalue
+[33mb91e98f[m [zdevice] init zvarvalue
+[33m6e04294[m [zdevice] create varinfo
+[33m8649459[m [zdevice] fix error
+[33mec65465[m [zdevice] init zVarInfo
+[33md29af7f[m [zworker] fix error writeLog
+[33med7dfaf[m [zworker] update func writelog
+[33mcc88c66[m [zworker] fix error writeLog
+[33m25b806d[m [zworker] change using func setData & add func writeLog
+[33m6a64b16[m [zapihttp] change using func setData
+[33m8a34dd6[m  [zdevice] change func setData in zdevicedata
+[33m187ff55[m [zapihtt] change json response
+[33mafb655d[m [zapihttp] modify func fillJsonDetailDevice
+[33mdee36eb[m [zworker] init device data in func addDIYDevice
+[33m5c0f4ae[m [zapihttp] add func fillJsonHttpQuery
+[33m0046c25[m [zworker] check Device_NotFound
+[33m6605e3e[m [zdevice] modify func getDeviceData
+[33m46012ec[m [zapihttp] change 'Object' -> 'Var'
+[33m4d2ffc8[m [zworker] handle func addDIYDevice
+[33m1d27caf[m [zapihttp] change namespace from header->cpp
+[33m4b9dd5d[m [zdevice] check value null in func setData
+[33m9aa7ed7[m [zdevice] add more func updateDeviceData
+[33m31a3ef1[m [zdevice][zworker] change func name 'update' -> 'updateDeviceInfo'
+[33m5e93e09[m [zapihttp] hange device api
+[33m31fe232[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m34b0011[m [zworker] add func updateStatusDevice
+[33md56b3d4[m [zsession] Fix session validation
+[33m22782f8[m Update ignore pattern
+[33m4c8f3a1[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33md89464a[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33mf1174ec[m add error handlers
+[33mfcecac4[m [zapihttp] using zdevicedata follow new format
+[33m88a9b1c[m [zdevice][zadmin] define devicedata follow format deviceinfo
+[33m7b4bd43[m [zuser] del func getWithapiKey
+[33m9b40873[m [zuser] del func getWithapiKey
+[33m42464ba[m [zapihttp] modify func handleDeleteAdminUserApikey using ZWorkerResult
+[33m8feb368[m [zapihttp] modify func handleGetAdminUserApikey using ZWorkerResult
+[33m1ed5327[m [zworker] add func getUserWithApikey
+[33m3c68fa0[m [zdevice] modify func create
+[33m943aeb1[m [zapihttp] fix error get deviceId in handleRequest - add item lastModified in void ZApiHTTPAdminRequestHandler::fillJsonDeviceInfo(
+[33m09049e7[m [zapihttp] change method find-> compare string in handleRequest
+[33me591807[m [zuser] change key 'devices' -> 'users'
+[33mf87427d[m [zapihttp] fix error when enter line
+[33mafdcb8c[m [zworker] check null deviceInfo-deviceData in funct getDevice
+[33m28533c3[m [zapihttp] modify func handleDeleteDeviceWithId
+[33maaf0381[m [zapihttp] modify func handle get detail device and update device info
+[33mc67794b[m [zapihttp] add func fillJsonDetailDevice
+[33mbc7d46d[m delete modifyAt in fill response
+[33m06039b1[m [zapihttp] modify func handleGetAdminUserApikey, handleDeleteAdminUserApikey
+[33m2e0f42a[m [zuser] add more func getWithapiKey & getWithUserKey
+[33m2b06e93[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33mea7c7a3[m [zworker] Add function addIndieDevice
+[33mb0a92d0[m [cmake] Remove debug message
+[33mc68584c[m [zcloud] Add support to include git version to final build, exposed to zapihttp as [url]/version
+[33mf98003c[m [zuser] add more func getUserWithUserName, getUserWithapiKey
+[33m9934e99[m [zcloud] Reorder static link libs
+[33me0901a2[m [zadmin] HGET apikey
+[33mafb087e[m [zworker] Add method updateDevice
+[33ma007fc4[m [zuser] change HGET apiKey
+[33mff2ecdf[m [zuser] change HGET apiKey
+[33mc554b27[m [zuser] change get/set apikey with key 'users:lookup:apikey'
+[33m7f8d110[m [zworker] Remove log
+[33mb147762[m [zuser] Fix accessing to user's properties in Redis
+[33md3f85dc[m [zworker] Associate new device to requested user
+[33mc04a638[m [zcommon] Add function StringUtil::convert to convert vector of strings to vector of int32_ts
+[33m75ef598[m [zuser] Error handling in parsing int32_t
+[33m1ddf78d[m [zuser] change func get user info with username & Set uuid_str in func create
+[33md5499ca[m [zcloud] change config
+[33m8acaf5e[m [zuser] using createUuid in class ZIdGenerator
+[33m138bce2[m [zadmin] using createUuid in class ZIdGenerator
+[33m2228591[m [zadmin] using createUuid in class ZIdGenerator
+[33mb1457b2[m [zadmin] change admin manager follow difine ZAdminInfo
+[33m40eb572[m [zuser]impl func update user
+[33mdc80598[m impl func remove user
+[33mc8de19e[m change sequence include header
+[33mcd496e3[m [zadmin] del getWithUName
+[33md4ea3ab[m [zapihttp] change get/set item with define ZUserInfo
+[33m2e81b2d[m [zuser] change get/set item with define ZUserInfo
+[33mf5839c9[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m77e5b18[m [zuser] change format, delete namespace msgpack
+[33m6864903[m [zdb] Add function createUuid for ZIdGenerator
+[33m4bd848f[m [zadmin] get AdminInfo with UserName
+[33mb00b310[m Fix compiler errors on Ubuntu
+[33ma7b2c11[m Add CMake files
+[33m9b24403[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m8579927[m [zcloud] add commandline --port/-p for defining HTTP API port
+[33me492f2d[m Make it compatible with gcc-4.8
+[33m34fbbec[m [zadmin] change fomart, delete namespace msgpack
+[33mddbc4d9[m [zworker] Add include directory for zadmin
+[33mdbced39[m [zadmin] change array size 7 -> 8
+[33m77c2f41[m [zcloud] include dir zadmin/include
+[33m4d9680d[m [zapihttp] handle admin factory device
+[33mc8c5869[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m2cbad18[m [zworker] delete func getAllDevices()
+[33mf7802e3[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m6e27e2c[m [zapihttp] Refactor code
+[33mbac6ea7[m handle factory devices create
+[33m46aaceb[m handle admin device with device id
+[33m1d3d9fe[m get deviceid from requestPath
+[33m76e64c7[m get all device in IoT
+[33m1d25456[m create func getAllDevices
+[33m886cc55[m handle delete user
+[33m7cc2220[m create func deleteUser
+[33m75260d2[m handle user detail with apikey
+[33me523e2f[m handle Admin user follow get method
+[33m4043134[m create function getAllUser
+[33mb580c45[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33m0cefedf[m create func getAllUser
+[33mf8962d8[m Update zadmin project config
+[33m5b1eaec[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33mba19851[m regiter, login admin
+[33maea94c4[m [zapihttp] Refactor handleDeleteDeviceWithId to use ZWorker::deleteDevice
+[33m9100d48[m impl service ZAdminManager
+[33m8866b67[m [zworker] Add deleteDevice function
+[33m21b3c2d[m init zadmin
+[33m774e2fa[m add item AdminManger in enum ServiceId
+[33m9647c9d[m Move logic implementation from API to worker
+[33m660a251[m Add zworker to separate logic implementation from api interface
+[33mfb6f22e[m Refactor zdevice
+[33m978bcd8[m Add new device
+[33m71c2e6d[m Add function SMEMBERS to ZDBProxy
+[33me169234[m init header zadmin
+[33md3b8ac6[m delete ZAdminInfo.h & ZAdminManager.h
+[33m59bf640[m change #include ZAdminInfo.h to #include zadmin/ZAdminInfo.h
+[33mad5a414[m change folder header
+[33m8e04fff[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33mb87618a[m init
+[33m009732f[m Remove logging from ZSessionService
+[33m73b609b[m add class ZDeviceData
+[33m6e9bc7b[m add class ZApiHTTPAdminRequestHandler
+[33m68f46a3[m Merge branch 'master' of bitbucket.org:iot_zcloud/zcloud-backend
+[33mf442584[m Fix handling url request with deviceId
+[33m1b5e3fc[m Validate jwt token
+[33me3d49f5[m del func getdeviceid, apikey
+[33md6f130d[m delete deviceId in func ZDeviceData::toString()
+[33mb5b05dd[m check condition fromString
+[33m5d97f35[m write log token
+[33m349a10c[m #include <map>
+[33mc31f16e[m test
+[33md22eba5[m get admin deviceid and admin apikey
+[33md20d512[m init AdminRequest
+[33m3483f67[m add request Admin
+[33m683150a[m create func removeDeviceData
+[33m8e2e349[m handle api device
+[33mec7e38b[m create func getUserDeviceId
+[33m5030a0f[m Merge branch 'master' of bitbucket.org:rediot/zcloud-backend
+[33m68f1937[m create func getDeviceData & createDeviceData
+[33m1e4eea9[m create class ZDeviceData
+[33mbe5e43d[m update project config
+[33m8f3267d[m update compiler setting
+[33m536e146[m using CanHandleRequest in ZApiHTTPDeviceRequestHandler
+[33m953f6b9[m using CanHandleRequest, not check TYPE_API
+[33m4afd563[m delete enum TYPE_API & delete func CanHandleRequest
+[33mf1fe656[m check type_api
+[33m772e7ee[m add func CanHandleRequest
+[33m93d28d0[m add enum TYPE_API
+[33m2a653ea[m Implement user/device/[GET|POST]
+[33mab404cb[m Fix generating jwt compatible session token
+[33me7f9c86[m Implementing HTTP API /api/user/device
+[33mb69a4ff[m Simulate jwt in creating/validating session string
+[33m3dc7c06[m fix compiling errors under Ubuntu
+[33m2f0327d[m Add HTTP api: user/password to allow user to change password
+[33m0af2429[m Move ZDBProxy and related items out of zcommon into zdb
+[33m7be0b30[m Move ZSessionService to zsession lib
+[33m725b6eb[m Add zsession project for managing user's session
+[33mf0d3db3[m Refactor code for ZApiHTTP
+[33m1562d32[m Implement user register, user login, session
+[33m61556d0[m Add HTTP api for ZUserManager
+[33m603ca25[m Update ZUser test suite
+[33m930cde9[m Update ZUserManager to use ZDBProxy
+[33m647e24f[m Make sure DB connection is available at startup
+[33m696fa3d[m Initialize ZDBProxy at service startup
+[33meb06be1[m Update UnitTest for ZDBProxy
+[33m0eb52bf[m Update ZDBProxy to use redis3m
+[33m5e38a52[m Add UnitTest for ZDBProxy hashes
+[33m0212f9f[m Add some unit tests for ZDBProxy
+[33m344526e[m Implement ZDBProxy
+[33m4f8f6ba[m Add ZDBProxy
+[33m8d476cc[m Merge
+[33me16399f[m Update ignore patterns
+[33m93adff2[m Remove auto generated files from netbeans
+[33m1f4fc2f[m fix linker issue on Linux
+[33m65ffd68[m update project
+[33m9c51323[m merge
+[33ma2ffbee[m update project settings for Linux
+[33m388f018[m Remove async part of hiredis
+[33m0cbf485[m Refactor code
+[33m9f7e2ba[m Refactor existing ZDBProxy into ZMemProxy
+[33m15a428b[m Add hiredis 0.13 (https://github.com/redis/hiredis)
+[33m686dad8[m Implement device manager
+[33m41d7618[m Implement user manager
+[33mc09b1a1[m Add ZServiceLocator for holding global services
+[33m9933263[m Add scheleton api for http service
+[33mf5e8f77[m Unify service interface
+[33m0e95ee8[m Add include directories for zcloud
+[33mb4bcc6e[m Set project dependency
+[33m8583ca9[m Add project files for zapi(http,mqtt,coap), zdevice
+[33m6b3ffab[m Update gitignore patterns
+[33mac22d43[m Add CppUnit test
+[33m4f1c11b[m add zcloud - main project
+[33m3938be9[m Add zuser static lib for managing users
+[33m7555e47[m Add zcommon static library for holding common classes, ext libs
+[33mb932dbd[m add msgpack for data serialization/deserialization
+[33mbf54a35[m Add ignore pattern

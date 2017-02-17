@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>private/paho/include/MQTTAsync.h</itemPath>
+      <itemPath>private/paho/include/MQTTClient.h</itemPath>
+      <itemPath>private/paho/include/MQTTClientPersistence.h</itemPath>
+      <itemPath>private/include/MqttClientWorker.h</itemPath>
+      <itemPath>private/include/MqttTopic.h</itemPath>
+      <itemPath>include/zapimqtt/ZApiMQTT.h</itemPath>
+      <itemPath>include/zapimqtt/ZCloudReceiveMessageEvent.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>private/paho/src/Clients.c</itemPath>
+      <itemPath>private/paho/src/Heap.c</itemPath>
+      <itemPath>private/paho/src/LinkedList.c</itemPath>
+      <itemPath>private/paho/src/Log.c</itemPath>
+      <itemPath>private/paho/src/MQTTAsync.c</itemPath>
+      <itemPath>private/paho/src/MQTTClient.c</itemPath>
+      <itemPath>private/paho/src/MQTTPacket.c</itemPath>
+      <itemPath>private/paho/src/MQTTPacketOut.c</itemPath>
+      <itemPath>private/paho/src/MQTTPersistence.c</itemPath>
+      <itemPath>private/paho/src/MQTTPersistenceDefault.c</itemPath>
+      <itemPath>private/paho/src/MQTTProtocolClient.c</itemPath>
+      <itemPath>private/paho/src/MQTTProtocolOut.c</itemPath>
+      <itemPath>private/paho/src/MQTTVersion.c</itemPath>
+      <itemPath>private/paho/src/Messages.c</itemPath>
+      <itemPath>src/MqttClientWorker.cpp</itemPath>
+      <itemPath>src/MqttTopic.cpp</itemPath>
+      <itemPath>private/paho/src/SSLSocket.c</itemPath>
+      <itemPath>private/paho/src/Socket.c</itemPath>
+      <itemPath>private/paho/src/SocketBuffer.c</itemPath>
+      <itemPath>private/paho/src/StackTrace.c</itemPath>
+      <itemPath>private/paho/src/Thread.c</itemPath>
+      <itemPath>private/paho/src/Tree.c</itemPath>
+      <itemPath>src/ZApiMQTT.cpp</itemPath>
+      <itemPath>private/paho/src/utf-8.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>private/paho/include</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+            <pElem>private/paho/include</pElem>
+            <pElem>../zcommon/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../zworker/include</pElem>
+            <pElem>../zdb/include</pElem>
+            <pElem>private/include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="include/zapimqtt/ZApiMQTT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zapimqtt/ZCloudReceiveMessageEvent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/MqttClientWorker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/MqttTopic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/paho/include/MQTTAsync.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/paho/include/MQTTClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/paho/include/MQTTClientPersistence.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/paho/src/Clients.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Heap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/LinkedList.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTAsync.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTClient.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTPacket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTPacketOut.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTPersistence.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTPersistenceDefault.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTProtocolClient.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTProtocolOut.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTVersion.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Messages.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/SSLSocket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Socket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/SocketBuffer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/StackTrace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Thread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Tree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/utf-8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MqttClientWorker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MqttTopic.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZApiMQTT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../zcommon/include</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="include/zapimqtt/ZApiMQTT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/zapimqtt/ZCloudReceiveMessageEvent.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/include/MqttClientWorker.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/include/MqttTopic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/paho/include/MQTTAsync.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/paho/include/MQTTClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="private/paho/include/MQTTClientPersistence.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="private/paho/src/Clients.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Heap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/LinkedList.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Log.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTAsync.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTClient.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTPacket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTPacketOut.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTPersistence.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTPersistenceDefault.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTProtocolClient.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTProtocolOut.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/MQTTVersion.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Messages.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/SSLSocket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Socket.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/SocketBuffer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/StackTrace.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Thread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/Tree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="private/paho/src/utf-8.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/MqttClientWorker.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/MqttTopic.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ZApiMQTT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

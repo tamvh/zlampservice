@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.cnd.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>zlampservice</name>
+            <c-extensions/>
+            <cpp-extensions>cpp</cpp-extensions>
+            <header-extensions>h</header-extensions>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <make-dep-projects>
+                <make-dep-project>../zuser</make-dep-project>
+                <make-dep-project>../zsession</make-dep-project>
+                <make-dep-project>../zapicoap</make-dep-project>
+                <make-dep-project>../zapimqtt</make-dep-project>
+                <make-dep-project>../zdb</make-dep-project>
+                <make-dep-project>../zadmin</make-dep-project>
+                <make-dep-project>../zapihttp</make-dep-project>
+                <make-dep-project>../zworker</make-dep-project>
+                <make-dep-project>../zdevice</make-dep-project>
+                <make-dep-project>../zapiws</make-dep-project>
+                <make-dep-project>../zcommon</make-dep-project>
+            </make-dep-projects>
+            <sourceRootList/>
+            <confList>
+                <confElem>
+                    <name>Debug</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>Release</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>ReleaseUbuntu</name>
+                    <type>1</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
